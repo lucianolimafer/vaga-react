@@ -1,0 +1,71 @@
+{
+  "cadeiras": [
+    {
+      "id": 1,
+      "name": "Poltrona Queen",
+      "description": "Esta é a melhor escolha para o seu conforto",
+      "price": 450.30,
+      "category": 1,
+      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
+      "thumbnail_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/ao_molho.png"
+    },
+    {
+      "id": 2,
+      "name": "Veggie",
+      "description": "Macarrão com pimentão, ervilha e ervas finas colhidas no himalaia.",
+      "price": "21.90",
+      "category": 2,
+      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png",
+      "thumbnail_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/veggie.png"
+    },
+    {
+      "id": 3,
+      "name": "A la Camarón",
+      "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares.",
+      "price": "25.90",
+      "category": 3,
+      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png",
+      "thumbnail_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/camarao.png"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "title": "Cadeira",
+      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/massas.png"
+    },
+    {
+      "id": 2,
+      "title": "mesa",
+      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/pizzas.png"
+    },
+    {
+      "id": 3,
+      "title": "luminária",
+      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/carnes.png"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "product_id": 1,
+      "name": "Poltrona Queen",
+      "description": "Esta é a melhor escolha para o seu conforto",
+      "price": 450.30,
+      "category": 1,
+      "thumbnail_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/ao_molho.png"
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "name": "Poltrona Queen",
+      "description": "Esta é a melhor escolha para o seu conforto",
+      "price": 450.30,
+      "category": 1,
+      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
+      "thumbnail_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/ao_molho.png",
+      "formattedPrice": "450.30"
+    }
+  ]
+}
