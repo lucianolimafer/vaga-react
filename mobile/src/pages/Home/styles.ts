@@ -28,7 +28,7 @@ export const btnCircle = styled.TouchableOpacity`
   position: absolute;
   bottom: 24px;
   right: 24px;
-  border-radius: 50;
+  border-radius: 50px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
