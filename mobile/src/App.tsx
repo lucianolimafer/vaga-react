@@ -6,8 +6,8 @@ import Routes from './routes';
 
 const App: React.FC = () => {
   return (
-    <View>
-      <StatusBar barStyle="light-content" backgroundColor="transparent" translucent />
+    <View style={{flex: 1, backgroundColor: '#f5f5f5'}}>
+      <StatusBar barStyle="dark-content" backgroundColor="transparent" translucent />
       <Routes />
     </View>
   );
