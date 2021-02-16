@@ -1,14 +1,20 @@
 import React from 'react';
-import {createStackNavigator} from '@react-navigation/stack';
+import {createStackNavigator, CardStyleInterpolators} from '@react-navigation/stack';
 import {NavigationContainer} from '@react-navigation/native';
 
 import Home from '../pages/Home';
+import ListStore from '../pages/ListStore';
 
 const App = createStackNavigator();
 
 const AppRoutes: React.FC = () => (
   <NavigationContainer>
-    <App.Navigator initialRouteName="Home">
+    <App.Navigator initialRouteName="Home" screenOptions={{
+      gestureEnabled: true,
+      gestureDirection: "horizontal",
+      cardStyle: {backgroundColor: '#f5f5f5'},
+      cardStyleInterpolator: CardStyleInterpolators.forHorizontalIOS
+    }}>
       <App.Screen
         options={{
           cardStyle: {backgroundColor: '#f5f5f5'},
@@ -16,6 +22,14 @@ const AppRoutes: React.FC = () => (
         }}
         name="Home"
         component={Home}
+      />
+      <App.Screen
+        options={{
+          cardStyle: {backgroundColor: '#f5f5f5'},
+          headerShown: false
+        }}
+        name='ListStore'
+        component={ListStore}
       />
     </App.Navigator>
   </NavigationContainer>
