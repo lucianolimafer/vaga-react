@@ -4,6 +4,7 @@ import {NavigationContainer} from '@react-navigation/native';
 
 import Home from '../pages/Home';
 import ListStore from '../pages/ListStore';
+import ProducDetails from '../pages/ProducDetails';
 
 const App = createStackNavigator();
 
@@ -30,6 +31,14 @@ const AppRoutes: React.FC = () => (
         }}
         name='ListStore'
         component={ListStore}
+      />
+      <App.Screen
+        options={{
+          cardStyle: {backgroundColor: '#f5f5f5'},
+          headerShown: false
+        }}
+        name='ProducDetails'
+        component={ProducDetails}
       />
     </App.Navigator>
   </NavigationContainer>
