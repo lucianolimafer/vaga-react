@@ -1,31 +1,40 @@
 {
-  "cadeiras": [
+  "products": [
     {
       "id": 1,
-      "name": "Poltrona Queen",
-      "description": "Esta é a melhor escolha para o seu conforto",
+      "name": "Talin Estiônia",
+      "description": "Cadeira importada do maior artesão da Estônia",
       "price": 450.30,
       "category": 1,
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png",
-      "thumbnail_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/ao_molho.png"
+      "image_url": "https://images.unsplash.com/photo-1503602642458-232111445657?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+      "thumbnail_url": "https://images.unsplash.com/photo-1503602642458-232111445657?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
     },
     {
       "id": 2,
-      "name": "Veggie",
-      "description": "Macarrão com pimentão, ervilha e ervas finas colhidas no himalaia.",
-      "price": "21.90",
-      "category": 2,
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png",
-      "thumbnail_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/veggie.png"
+      "name": "Pink to Queen",
+      "description": "Cadeira customizada pelo artesão da família real britânica.",
+      "price": "856.90",
+      "category": 1,
+      "image_url": "https://images.unsplash.com/photo-1586158291800-2665f07bba79?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+      "thumbnail_url": "https://images.unsplash.com/photo-1586158291800-2665f07bba79?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
     },
     {
       "id": 3,
-      "name": "A la Camarón",
-      "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares.",
-      "price": "25.90",
+      "name": "Mesa Easel",
+      "description": "Mesa sob cavaletes, clean style e conforto no home office",
+      "price": "489.90",
+      "category": 2,
+      "image_url": "https://images.unsplash.com/photo-1612068661769-e641a155d7bb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=658&q=80",
+      "thumbnail_url": "https://images.unsplash.com/photo-1612068661769-e641a155d7bb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=658&q=80"
+    },
+    {
+      "id": 4,
+      "name": "Luminária Real",
+      "description": "Artefado restaurado de castelo da família real russa",
+      "price": "975.90",
       "category": 3,
-      "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png",
-      "thumbnail_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/camarao.png"
+      "image_url": "https://images.unsplash.com/photo-1580130410521-01ba862907cc?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80",
+      "thumbnail_url": "https://images.unsplash.com/photo-1580130410521-01ba862907cc?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80"
     }
   ],
   "categories": [
@@ -36,12 +45,12 @@
     },
     {
       "id": 2,
-      "title": "mesa",
+      "title": "Mesa",
       "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/pizzas.png"
     },
     {
       "id": 3,
-      "title": "luminária",
+      "title": "Luminária",
       "image_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/carnes.png"
     }
   ],
