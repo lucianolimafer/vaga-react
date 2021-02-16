@@ -90,10 +90,10 @@ export const categoryItemTitle = styled.Text<CategoryItemTitleProps>`
 `;
 
 export const ProductsContainer = styled.View`
-  margin-top: 36px;
+  padding: 36px 0;
 `;
 
-export const ProducstList = styled.View``;
+export const ProducstList = styled.ScrollView``;
 
 export const Product = styled.View`
   display: flex;
@@ -104,6 +104,7 @@ export const Product = styled.View`
   height: 160px;
   border-radius: 24px;
   margin-bottom: 18px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 `;
 
 export const ProductImageContainer = styled.Image`
@@ -149,10 +150,10 @@ export const ProdtuctPrice = styled.Text`
 `;
 
 export const addToCartBtn = styled.TouchableOpacity`
-  width: 48px;
-  height: 20px;
+  width: 64px;
+  height: 28px;
   border-radius: 8px;
-  padding: 0 4px;
+  padding: 0 8px;
   display: flex;
   flex-direction: row;
   align-items: center;

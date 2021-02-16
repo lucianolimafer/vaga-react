@@ -7,8 +7,7 @@ import CartIcon from '../../assets/icons/bag.png';
 import * as S from './styles';
 import api from '../../services/api';
 import formatValue from '../../utils/formatValue';
-import { Image } from 'react-native';
-import { NavigationContainer, useNavigation } from '@react-navigation/native';
+import { useNavigation } from '@react-navigation/native';
 
 interface Product {
   id: number;
@@ -73,7 +72,7 @@ const ListStore: React.FC = () => {
   }
 
   async function handleNavigate(id: number): Promise<void> {
-    navigate('ProducDatails', {
+    navigate('ProducDetails', {
       id,
     });
   }
@@ -115,7 +114,9 @@ const ListStore: React.FC = () => {
           </S.categorySlider>
         </S.categoryContainer>
         <S.ProductsContainer>
-          <S.ProducstList>
+          <S.ProducstList
+            showsVerticalScrollIndicator={false}
+          >
             {products.map(product => (
               <S.Product
                 key={product.id}
@@ -128,7 +129,7 @@ const ListStore: React.FC = () => {
                   <S.priceCartContent>
                     <S.ProdtuctPrice>{product.formattedPrice}</S.ProdtuctPrice>
                     <S.addToCartBtn onPress={() => handleNavigate(product.id)}>
-                      <S.AddText>add</S.AddText>
+                      <S.AddText>comprar</S.AddText>
                       <S.CartImage source={CartIcon} />
                     </S.addToCartBtn>
                   </S.priceCartContent>
