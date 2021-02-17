@@ -57,12 +57,12 @@
   "orders": [
     {
       "id": 1,
-      "product_id": 1,
-      "name": "Poltrona Queen",
-      "description": "Esta é a melhor escolha para o seu conforto",
+      "name": "Talin Estiônia",
+      "description": "Cadeira importada do maior artesão da Estônia",
       "price": 450.3,
       "category": 1,
-      "thumbnail_url": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-gorestaurant-mobile/ao_molho.png"
+      "image_url": "https://images.unsplash.com/photo-1503602642458-232111445657?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+      "thumbnail_url": "https://images.unsplash.com/photo-1503602642458-232111445657?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
     }
   ],
   "favorites": [
@@ -75,6 +75,16 @@
       "image_url": "https://images.unsplash.com/photo-1586158291800-2665f07bba79?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
       "thumbnail_url": "https://images.unsplash.com/photo-1586158291800-2665f07bba79?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
       "formattedPrice": "R$856,90"
+    },
+    {
+      "id": 1,
+      "name": "Talin Estiônia",
+      "description": "Cadeira importada do maior artesão da Estônia",
+      "price": 450.3,
+      "category": 1,
+      "image_url": "https://images.unsplash.com/photo-1503602642458-232111445657?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+      "thumbnail_url": "https://images.unsplash.com/photo-1503602642458-232111445657?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
+      "formattedPrice": "R$450,30"
     }
   ]
 }
