@@ -10,7 +10,9 @@ const Home: React.FC = () => {
   const {navigate} = useNavigation();
 
   const navigateToStore = useCallback(() => {
-    navigate('ListStore');
+    navigate('MainBottom', {
+      screen: 'ListStore',
+    });
   }, []);
 
   return (
