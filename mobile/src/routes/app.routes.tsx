@@ -1,6 +1,6 @@
 import React from 'react';
-import {createStackNavigator, CardStyleInterpolators} from '@react-navigation/stack';
 import {NavigationContainer} from '@react-navigation/native';
+import {createStackNavigator, CardStyleInterpolators} from '@react-navigation/stack';
 
 import TabRoutes from './tab.routes';
 
@@ -9,6 +9,8 @@ import ListStore from '../pages/ListStore';
 import ProducDetails from '../pages/ProducDetails';
 import Orders from '../pages/Orders';
 import Favorites from '../pages/Favorites';
+import Payment from '../pages/Payment';
+import DonePay from '../pages/DonePay';
 
 const App = createStackNavigator();
 
@@ -67,6 +69,22 @@ const AppRoutes: React.FC = () => (
         }}
         name='Favorites'
         component={Favorites}
+      />
+      <App.Screen
+        options={{
+          cardStyle: {backgroundColor: '#f5f5f5'},
+          headerShown: false
+        }}
+        name='Payment'
+        component={Payment}
+      />
+      <App.Screen
+        options={{
+          cardStyle: {backgroundColor: '#f5f5f5'},
+          headerShown: false
+        }}
+        name='DonePay'
+        component={DonePay}
       />
     </App.Navigator>
   </NavigationContainer>

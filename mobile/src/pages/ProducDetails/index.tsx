@@ -31,7 +31,7 @@ const ProducDetails: React.FC = () => {
   const [isFavorite, setIsFavorite] = useState(false);
   const [productQuantity, setProductQuantity] = useState(1);
 
-  const {goBack} = useNavigation();
+  const {goBack, navigate} = useNavigation();
   const route = useRoute();
   const routeParams = route.params as Params;
 
@@ -62,9 +62,13 @@ const ProducDetails: React.FC = () => {
     setIsFavorite(!isFavorite);
   }, [isFavorite, product]);
 
-  const favoriteIconName = useMemo(() => (isFavorite ? LikeRed : LikeGray),
-    [isFavorite]
-  );
+  const favoriteIconName = useMemo(() => {
+    if (isFavorite) {
+      return LikeRed;
+    }
+
+    return LikeGray;
+  }, [isFavorite]);
 
   function handleIncrement(): void {
     setProductQuantity(productQuantity + 1);
@@ -82,6 +86,10 @@ const ProducDetails: React.FC = () => {
 
     return formatValue(total)
   }, [productQuantity, product.price]);
+
+  const navigateToPayment = useCallback((consumeTotal: string) => {
+    navigate('Payment', { consumeTotal });
+  }, []);
 
   return (
     <S.Container>
@@ -120,7 +128,7 @@ const ProducDetails: React.FC = () => {
             </S.IncOrDecrementBtn>
           </S.CardIncrement>
         </S.PriceIncrementContainer>
-        <S.payButton>
+        <S.payButton onPress={() => navigateToPayment(consumeTotal)}>
           <S.payText>comprar</S.payText>
           <S.payImage source={BagIcon} />
         </S.payButton>
