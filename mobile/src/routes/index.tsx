@@ -6,4 +6,4 @@ const Routes: React.FC = () => {
   return <AppRoutes />;
 }
 
-export default AppRoutes;
+export default Routes;
