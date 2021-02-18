@@ -44,6 +44,9 @@ $ cd vaga-react/mobile
 # Install dependencies
 $ yarn install
 
+# Run the fake server (fake API)
+$ npx json-server server.json -p 3333 -w
+
 # Run the app (iOS)
 $ react-native run-ios --simulator="iPhone XS Max"
 
