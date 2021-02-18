@@ -16,7 +16,7 @@
 
 
 <p align="center">
-   <iframe width="600" height="480" src="https://www.youtube.com/embed/T-j8hC0Pvdo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <img alt="Demo on Netlify" src="https://res.cloudinary.com/dgbrkdrvg/image/upload/v1613613145/intro_1_im9a9o.png">
 </p>
 
 ## :rocket: Technologies
