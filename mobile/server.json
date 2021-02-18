@@ -1,4 +1,42 @@
 {
+  "sessions": [
+    {
+      "email": "l@l.com",
+      "password": "01010101",
+      "user": 1,
+      "token": "hbaahjhdsdbffhbfbjkbnj"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Luciano Lima",
+      "email": "l@l.com",
+      "password": "01010101",
+      "avatar_url": "",
+      "end_street": "Rua Aplo",
+      "end_number": 85,
+      "postal_code": 91570555,
+      "token": "hbaahjhdsdbffhbfbjkbnj"
+    },
+    {
+      "id": 2,
+      "name": "Luciano Lima",
+      "email": "l1@li.com",
+      "password": "01010101",
+      "avatar_url": "",
+      "end_street": "Rua Aplo",
+      "end_number": 85,
+      "postal_code": 91570555,
+      "token": "hbaahjhdsdbffhbfbdfgfdg"
+    },
+    {
+      "name": "Luciano",
+      "email": "ll@ll.com",
+      "password": "01010101",
+      "id": 3
+    }
+  ],
   "products": [
     {
       "id": 1,
@@ -85,6 +123,26 @@
       "image_url": "https://images.unsplash.com/photo-1503602642458-232111445657?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
       "thumbnail_url": "https://images.unsplash.com/photo-1503602642458-232111445657?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80",
       "formattedPrice": "R$450,30"
+    },
+    {
+      "id": 3,
+      "name": "Mesa Easel",
+      "description": "Mesa sob cavaletes, clean style e conforto no home office",
+      "price": "489.90",
+      "category": 2,
+      "image_url": "https://images.unsplash.com/photo-1612068661769-e641a155d7bb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=658&q=80",
+      "thumbnail_url": "https://images.unsplash.com/photo-1612068661769-e641a155d7bb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=658&q=80",
+      "formattedPrice": "R$489,90"
+    },
+    {
+      "id": 4,
+      "name": "Luminária Real",
+      "description": "Artefado restaurado de castelo da família real russa",
+      "price": "975.90",
+      "category": 3,
+      "image_url": "https://images.unsplash.com/photo-1580130410521-01ba862907cc?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80",
+      "thumbnail_url": "https://images.unsplash.com/photo-1580130410521-01ba862907cc?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80",
+      "formattedPrice": "R$975,90"
     }
   ]
 }

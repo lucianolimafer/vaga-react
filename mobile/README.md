@@ -16,7 +16,11 @@
 
 
 <p align="center">
+<<<<<<< HEAD
   <img alt="Demo on Netlify" src="https://res.cloudinary.com/dgbrkdrvg/image/upload/v1613613464/intro_2_ukoznt.png">
+=======
+  <img alt="Demo on Netlify" src="https://res.cloudinary.com/dgbrkdrvg/image/upload/v1613613145/intro_1_im9a9o.png">
+>>>>>>> ada200c2fb70cbcecd5ac35faf601448fe779dec
 </p>
 
 ## :rocket: Technologies
