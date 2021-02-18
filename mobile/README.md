@@ -16,7 +16,7 @@
 
 
 <p align="center">
-  <img alt="Demo on Netlify" src="https://res.cloudinary.com/dgbrkdrvg/image/upload/v1613609993/videoApp_rmvmwg.gif">
+  <img alt="Demo" width="250" src="https://res.cloudinary.com/dgbrkdrvg/image/upload/v1613609993/videoApp_rmvmwg.gif">
 </p>
 
 ## :rocket: Technologies
