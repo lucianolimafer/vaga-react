@@ -64,10 +64,10 @@ const Payment: React.FC = () => {
             <S.totalValue>{routeParams.consumeTotal}</S.totalValue>
           </S.sendContainer>
         </S.StreetContainer>
+        <S.payButton onPress={() => navigate('DonePay')}>
+          <S.payText>confirmar compra</S.payText>
+        </S.payButton>
       </S.SendInfos>
-      <S.payButton onPress={() => navigate('DonePay')}>
-        <S.payText>confirmar compra</S.payText>
-      </S.payButton>
     </S.Container>
   );
 };

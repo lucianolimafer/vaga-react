@@ -33,10 +33,14 @@ export const ArrowBack = styled.Image`
   height: 18px;
 `;
 
+export const ContainerScroll = styled.ScrollView`
+  padding: 24px 0;
+`;
+
 export const SendInfos = styled.View`
   align-self: center;
   width: 90%;
-  height: 160px;
+  height: 180px;
   border: 1px solid #fff;
   border-radius: 24px;
   padding: 8px;
@@ -70,8 +74,8 @@ export const totalValue = styled.Text`
 
 export const payButton = styled.TouchableOpacity`
   background: #FF4644;
-  width: 90%;
-  height: 64px;
+  width: 95%;
+  height: 48px;
   border-radius: 8px;
   display: flex;
   flex-direction: row;
@@ -80,6 +84,8 @@ export const payButton = styled.TouchableOpacity`
   padding: 0 16px;
   margin-top: 16px;
   align-self: center;
+  position: absolute;
+  bottom: 8px;
 `;
 
 export const payText = styled.Text`
